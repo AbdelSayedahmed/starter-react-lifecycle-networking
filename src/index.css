@@ -14,12 +14,8 @@ code {
 
 .App {
   height: 100vh;
-  /* background-color: lightyellow; */
+  background-color: lightyellow;
 }
-
-/* * {
-  border: 1px solid gold;
-} */
 
 header {
   display: flex;
