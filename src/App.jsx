@@ -19,7 +19,7 @@ function App() {
   const [vibe, setVibe] = useState("");
 
   useEffect(() => {
-    setNumber(Math.random());
+    setNumber(Math.ceil(Math.random() * 100));
   }, []);
 
   useEffect(() => {
